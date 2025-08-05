@@ -37,7 +37,7 @@
         const row = document.createElement("tr");
         row.innerHTML = `
           <td>${a.patientName}</td>
-          <td>${a.doctor.fullName}</td>
+          <td>${a.doctor.name}</td>
           <td>${a.doctor.specialization}</td>
           <td>${new Date(a.appointmentDate).toLocaleString()}</td>
           <td>${a.notes ?? ""}</td>
